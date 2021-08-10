@@ -53,5 +53,10 @@ export default {
         implementation: require('sass'),
       },
     },
+    babel: {
+      plugins: [
+        ['@babel/plugin-proposal-private-property-in-object', { loose: true }]
+      ],
+    },
   }
 }

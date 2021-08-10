@@ -1,8 +1,13 @@
 <template>
-  <div class="test">Hello there</div>
+  <div>
+    <span class="test">
+      Hello there
+      </span>
+    </div>
 </template>
 
 <style lang="sass" scoped>
-.test
-  color: red
+div
+  .test
+    color: red
 </style>
