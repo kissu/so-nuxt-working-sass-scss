@@ -1,7 +1,8 @@
 <template>
-  <Tutorial/>
+  <div class="test">Hello there</div>
 </template>
 
-<script>
-export default {}
-</script>
+<style lang="sass" scoped>
+.test
+  color: red
+</style>
